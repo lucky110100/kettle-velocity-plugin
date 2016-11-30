@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin
+
+   id="TemplatePlugin"
+   iconfile="icon.png"
+   description="Template Plugin"
+   tooltip="Only there for demonstration purposes"
+   category="Demon"
+   classname="plugin.template.TemplateStepMeta">
+		
+		<libraries>
+			<library name="commons-io-2.4.jar"/>
+    		<library name="velocity-1.7.jar"/>
+    		<library name="velocity-tools-2.0.jar"/>
+    		<library name="TemplateStepPlugin.jar"/>
+		</libraries>
+		
+</plugin>

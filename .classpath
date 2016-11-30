@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="plugin/template/deprecated/" kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="libext/kettle-core.jar"/>
+	<classpathentry kind="lib" path="libext/kettle-db.jar"/>
+	<classpathentry kind="lib" path="libext/kettle-engine.jar" sourcepath="/Kettle 4.0.0"/>
+	<classpathentry kind="lib" path="libext/kettle-ui-swt.jar"/>
+	<classpathentry kind="lib" path="libswt/win32/swt.jar"/>
+	<classpathentry kind="lib" path="libext/kettle-vfs-20100924.jar"/>
+	<classpathentry kind="lib" path="libext/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="libext/kettle-dbdialog.jar"/>
+	<classpathentry kind="lib" path="libext/kettle-test.jar"/>
+	<classpathentry kind="lib" path="libext/velocity-1.7.jar"/>
+	<classpathentry kind="lib" path="libext/velocity-tools-2.0.jar"/>
+	<classpathentry kind="lib" path="libext/commons-lang-2.4.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

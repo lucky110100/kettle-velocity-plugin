@@ -1,0 +1,12 @@
+*.prefs
+*.DS_Store
+/bin
+/classes
+/distrib
+/docs
+/docdev
+*.log
+*.class
+/samples
+/deprecated/
+TemplateStepPlugin.jar

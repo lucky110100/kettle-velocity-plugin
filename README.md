@@ -23,6 +23,8 @@ ETL工具(kettle)与Velocity模板引擎的结合会产生一个非常变态的�
 ***
 通过下面的ETL流程，<br>
 ![](http://git.oschina.net/lucky110100/template/raw/master/doc/etl.png)
+![](http://git.oschina.net/lucky110100/template/raw/master/doc/codejob.png)
+![](http://git.oschina.net/lucky110100/template/raw/master/doc/vmplugin.png)
 <br>
 我们看看输出的结果：<br>
 ![](http://git.oschina.net/lucky110100/template/raw/master/doc/files.png)<br>

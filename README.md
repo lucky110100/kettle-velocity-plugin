@@ -21,21 +21,18 @@ ETL工具(kettle)与Velocity模板引擎的结合会产生一个非常变态的�
 | address| varchar| 100	| 地址 |
 ***
 通过下面的ETL流程，<br>
-![](doc/etl.png)  
-
-<br>
+![](doc/etl.png) <br>
 我们看看输出的结果：<br>
-![](http://git.oschina.net/lucky110100/template/raw/master/doc/files.png)<br>
+![](doc/files.png)<br>
 ### I、建表语句SQL<br>
-![](http://git.oschina.net/lucky110100/template/raw/master/doc/sql.png)<br>
+![](doc/sql.png)<br>
 ### II、domain对象<br>
-![](http://git.oschina.net/lucky110100/template/raw/master/doc/java.png)<br>
+![](doc/java.png)<br>
 ### III、HTML代码<br>
-![](http://git.oschina.net/lucky110100/template/raw/master/doc/html.png)<br>
-在实际的生成开发环境中，要完成一个WEB页面的增删改查功能，还会需要的更多的文件和代码块，如controller、service、api……等方法模块，或者注册菜单和权限的SQL脚本，这些也都可以自动生成，如下：
-![](doc/codejob.png)  
-![](doc/vmplugin.png)  
-<br>
+![](doc/html.png)<br>
+在实际的生成开发环境中，要完成一个WEB页面的增删改查功能，还会需要的更多的文件和代码块，如controller、service、api……等方法模块，或者注册菜单和权限的SQL脚本，这些也都可以自动生成，如下:<br>
+![](doc/codejob.png)<br> 
+![](doc/vmplugin.png)<br>
 总而言之，在既定的框架下，一个简单的增删改查功能代码可以通过Kettle模板插件一键生成，甚至无需手工编码。
 <br>
 # 3 总结

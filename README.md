@@ -53,7 +53,8 @@ ETL工具（kettle）与模板引擎(velocity)结合可以使代码自动化变�
 svn://source.pentaho.org/svnkettleroot/archive/Kettle/branches/4.4.0<br>
 2、开发kettle插件：<br>
 http://blog.fens.me/java-kettle-plugin-eclipse/<br>
-3、插件代码（开源中国）<br>
+3、插件代码
+https://github.com/lukcy110100/kettle-velocity-plugin<br>
 https://git.oschina.net/lucky110100/template.git<br>
 4、Eclipse Indigo 3.7.0 安装GIT插件<br>
 http://www.cnblogs.com/taoweiji/p/3536543.html<br>

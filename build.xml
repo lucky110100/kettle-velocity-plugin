@@ -36,9 +36,10 @@
 
 	  <target name="compile" depends="init" description="compile the source " >
 	  	<echo>Compiling Jasper Reporting Plugin...</echo>
-	    <javac srcdir="${src}" destdir="${classes}">
-	    	<!--给编译器指定编码，防止出现："警告： 编码 GBK 的不可映射字符"-->
-	    	<compilerarg line="-encoding UTF-8 "/> 
+	    <javac srcdir="${src}" 
+	    	   destdir="${classes}"
+	    	   encoding="utf-8">
+
 	    	<classpath id="cpath">
 				<fileset dir="${libext}" 		includes="*.jar"/>
 				<fileset dir="${resource}" 		includes="*.jar"/>
@@ -103,15 +104,13 @@
 	            deploy to Kettle
 	       ==========================
 	  -->
-	 
+	 <!--
 	  <target name="deploy" depends="distrib" description="Deploy distribution..." >
 	  	<echo>deploying plugin...</echo>
 	  </target>
-	  
-	
-	<!--
-	<property name="deploydir" location="D:\proj_git\kettle-4.4.0\distrib\plugins\steps\myPlugin"/>
-	<property name="projectdir" location="D:\proj_git\kettle-4.4.0\plugins\steps\myPlugin"/>
+	  -->
+	<property name="deploydir" location="D:\proj_me\kettle\distrib\plugins\steps\myPlugin"/>
+	<property name="projectdir" location="D:\proj_me\kettle\plugins\steps\myPlugin"/>
 
 	<fileset dir="${libswt}/win64/" includes="*.jar"/>
 
@@ -125,7 +124,6 @@
 	<fileset dir="${distrib}" includes="**/*.*"/>
 	</copy>
 	</target>
-	-->
 
 	<!--
 	       ==========================
